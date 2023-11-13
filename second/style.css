@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;    
+    background-color: blueviolet;
+}
+.main1
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.8);
+    background-color: rgb(57, 29, 83);
+}
+
+.header-block{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-block a{
+    color: white;
+}
+.header-right button{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: white;
+
+}
+.header-right button:hover{
+    color:black;
+}
+.main1-main{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-photo{
+    height: 300px;
+    border-radius: 250px;
+}
+.main1-main h1{
+    font-size: 70px;
+    font-family: cursive;
+    color: rgb(212, 255, 0);
+}
+.main1-main button{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 35px;
+    cursor: pointer;
+}
+.main2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main2-bar{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+.gototop{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(97, 40, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    bottom: 40px;
+    right: 40px;
+    transition: all ease 1s;
+    border-radius: 50%;
+}
+.gototop:hover{
+    height: 70px;
+}
+.gototop:click{
+    transition: all ease 1s;
+}
+.main2-bar h2 strong{
+    color: white;
+    -webkit-text-stroke: 1.3px;
+}
+.main2-bar h2 a:link{
+    text-decoration: none;
+    color: white;
+}
+.main2-bar h2 a:hover{
+    color: blue;
+}
+.main2-links{
+    display: flex;
+}
+.main2-links a{
+    margin: 20px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: #551A8B;
+}
+.main2-links a:hover{
+    color:#30104f ;
+    border-radius: 50%;
+}
